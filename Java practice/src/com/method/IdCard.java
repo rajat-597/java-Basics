@@ -12,7 +12,7 @@ public class IdCard {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Hello world");
 		IdCard ic1 = new IdCard(); // instance of class, we can able to create any number of instances of the class.
 	   System.out.println("Value for name should be default value "+ ic1.name);
 	 boolean voters = ic1.checkEligibility(10);
